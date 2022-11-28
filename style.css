@@ -1,0 +1,389 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(42, 41, 41);
+}
+
+.container{
+    height: 95vh;
+}
+
+ul{
+    list-style: none;
+}
+
+.navlogo{
+    height: 110px;
+}
+
+section{
+    background-image: url('./images/netflix.jpg');
+    background-size: cover;
+    height: 100%;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.login-btn{
+    background-color: #e50914;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.en{
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    background: none;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.hero-section{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    word-spacing: 2px;  
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 300;
+}
+.hero-section .on{
+     font-size: 25px;
+     margin: 20px 0px 20px 0px;
+}
+
+.hero-section p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-section input{
+    height: 60px;
+    width: 450px;
+    border: none;
+    padding: 10px;
+}
+
+.hero-section button{
+    background-color: #e50914;
+    border: none;
+    color: white;
+    height: 60px;
+    width: 210px;
+    margin-left: -5px;
+}
+
+/* Start TV Section */
+
+.tv-section{
+    height: 63vh;
+    background-color: black;
+    margin-top: 8px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-section div{
+   padding: 40px;
+   margin-right: 15px;
+}
+.tv-section div h2{
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.tv-section div p{
+    font-size: 23px;
+}
+
+.tv-section .tv{
+    background-image: url(./images/tv.png);
+    background-size: cover;
+    height: 55vh;
+    width: 500px;
+    margin-left: 10px;
+}
+
+/* Start Offline Section */
+
+.offline-section{
+    height: 63vh;
+    background-color: black;
+    margin-top: 8px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    
+}
+
+.offline-section .mob{
+    background-image: url(./images/sh.jpg);
+    background-size: cover;
+    height: 55vh;
+    width: 450px;
+    margin: 20px 0px 0px 80px;
+    background-color: red;
+}
+
+.offline-section .mob .downlod{
+    display: flex;
+    background-color: black;
+    height: 14vh;
+    width: 330px;
+    margin: 250px 0px 0px 80px;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.offline-section .mob .downlod img{
+    height: 80px;
+    width: 60px;
+    margin: 5px 0px 0px 10px;
+}
+.offline-section .mob .downlod div{
+    height: 13vh;
+    width: 130px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offline-section .mob .downlod div p:last-child{
+    color: #0071eb;
+}
+
+.offline-section .write{
+    height: 63vh;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.offline-section .write h2{
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+.offline-section .write p{
+    font-size: 23px;
+}
+
+/* Start Watch Everywhere */
+
+.watch-everywhere{
+    height: 72vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 8px;
+    color: white;
+    display: flex;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.watch-everywhere .write{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.watch-everywhere .write h2{
+    font-size: 47px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.watch-everywhere .write p{
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.watch-everywhere .tv{
+    height: 70vh;
+    width: 50%;
+}
+.watch-everywhere .tv img{
+    height: 62vh;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Start Children Section */
+
+.children-section{
+    height: 70vh;
+    background-color: black;
+    margin-top: 8px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+}
+
+.children-section .ph{
+    width: 50%;
+}
+
+.children-section .ph img{
+   height: 60vh;
+   padding-top: 60px;
+   margin-right: 30px;
+   float: right;   
+}
+.children-section .write{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.children-section .write h2{
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.children-section .write p{
+    font-size: 24px;
+}
+
+/* Start Question Section */
+
+.questions-section{
+    height: 125vh;
+    margin-top: 8px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: black;
+}
+
+.questions-section .head{
+    height: 25vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.questions-section .head h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.container-1{
+    margin: 0px auto;
+    width: 750px;
+}
+.questions-section .container-1 .box{
+    height: 66px;
+    width: 750px;
+    margin-bottom: 10px;
+    background-color: rgb(42, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.questions-section .container-1 .box p{
+    font-size: 25px;
+}
+.questions-section .e p{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.questions-section .last{
+    display: flex;
+    justify-content: center;
+}
+.questions-section .last input{
+    height: 60px;
+    width: 450px;
+    border: none;
+    padding: 10px;
+}
+.questions-section .last button{
+    background-color: #e50914;
+    border: none;
+    color: white;
+    height: 60px;
+    width: 210px;
+    margin-left: -5px;
+}
+
+/* Start Footer Section */
+
+.footer-section{
+    height: 52vh;
+    background-color: black;
+    margin-top: 8px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: relative;
+    color: #999;
+}
+
+.container-2{
+    width: 90%;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.footer-section .container-2 .ul-section .a{
+    width: 200px;
+}
+.footer-section .container-2 .ul-section .b{
+    width: 200px;
+}
+.footer-section .container-2 .ul-section .c{
+    width: 200px;
+}
+.footer-section .container-2 .ul-section{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.footer-section .container-2 p{
+    margin-left: 280px;
+    margin-bottom: 25px;
+}
+li{
+    margin-bottom: 15px;
+}
+.footer-section .container-2 button{
+    background-color: black;
+    color: #999;
+    border: 1px solid #333;
+    border-radius: 3px;
+    height: 50px;
+    width: 120px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.footer-section .container-2 h6{
+    margin-left: 280px;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+}
